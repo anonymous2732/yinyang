@@ -12,7 +12,7 @@ Transformer models have made great strides in generating symbolic music with loc
 
 ## Audio Generation Framework
 
-<audio src="Audio Generation Framework/4/YY_Generation_Framework.mp3" controls ></audio>
+<audio src="Audio_Generation Framework/4/YY_Generation_Framework.mp3" controls ></audio>
 
 
 <!-- We finally present some audio samples of separations produced by the system. By cross-referencing the cluster index with the histogram shown above, it is possible to recognize the class of sources characteristic of each cluster. -->
