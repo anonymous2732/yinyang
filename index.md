@@ -39,13 +39,13 @@ YinYang Ablated
 ## Audio Type 3
 
 Compound Word Transformer
-<audio src="Audio_Type_2/tirol12_CP.mp3" controls ></audio>
+<audio src="Audio_Type_3/tirol12_CP.mp3" controls ></audio>
 Music Transformer
-<audio src="Audio_Type_2/tirol12_MT.mp3" controls ></audio>
+<audio src="Audio_Type_3/tirol12_MT.mp3" controls ></audio>
 <!-- YinYang
-<audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio>
+<audio src="Audio_Type_3/tirol12_YY.mp3" controls ></audio>
 YinYang Ablated
-<audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio> -->
+<audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio> -->
 
 ## Audio Variations
 
