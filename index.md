@@ -16,7 +16,49 @@ Transformer models have made great strides in generating symbolic music with loc
 
 ## Audio Type 1
 
+Compound Word Transformer
 <audio src="Audio_Type_1/NLB150927_01_CP.mp3" controls ></audio>
+Music Transformer
+<audio src="Audio_Type_1/NLB150927_01_MT.mp3" controls ></audio>
+YinYang
+<audio src="Audio_Type_1/NLB150927_01_YY.mp3" controls ></audio>
+YinYang Ablated
+<audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio>
+
+## Audio Type 2
+
+Compound Word Transformer
+<audio src="Audio_Type_2/NLB075093_01_CP.mp3" controls ></audio>
+Music Transformer
+<audio src="Audio_Type_2/NLB075093_01_MT.mp3" controls ></audio>
+YinYang
+<audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio>
+YinYang Ablated
+<audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio>
+
+## Audio Type 3
+
+Compound Word Transformer
+<audio src="Audio_Type_2/tirol12_CP.mp3" controls ></audio>
+Music Transformer
+<audio src="Audio_Type_2/tirol12_MT.mp3" controls ></audio>
+<!-- YinYang
+<audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio>
+YinYang Ablated
+<audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio> -->
+
+## Audio Variations
+
+Expand Melody
+<audio src="Audio_Variations/han1006_mono_expand_melody_combined.mp3" controls ></audio>
+Invert Melody
+<audio src="Audio_Variations/han1006_mono_invert_melody_strict_combined.mp3" controls ></audio>
+Masking
+<audio src="Audio_Variations/han1006_mono_masking_combined.mp3" controls ></audio>
+Permute Melody Pitch Rhythm
+<audio src="Audio_Variations/han1006_mono_permute_melody_pitch_rhythm_combined.mp3" controls ></audio>
+Retrograde Melody Pitch Rythm
+<audio src="Audio_Variations/han1006_mono_retrograde_melody_pitch_rhythm_combined.mp3" controls ></audio>
 
 
 <!-- We finally present some audio samples of separations produced by the system. By cross-referencing the cluster index with the histogram shown above, it is possible to recognize the class of sources characteristic of each cluster. -->
