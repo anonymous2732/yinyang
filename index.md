@@ -8,14 +8,12 @@ layout: page
 Transformer models have made great strides in generating symbolic music with local coherence. Yet, controlling the development of motifs in a structured way with global form remains an open research area. One of the reasons for this challenge is due to the note-by-note autoregressive generation of such models which lack the ability to correct themselves after deviations from the motif. In addition, their structural performance on datasets with shorter durations has not been studied in the literature. In this study, we propose Yin-Yang, a neuro-symbolic framework consisting of a phrase generator, phrase refiner and phrase selector models for development of motifs with long-term structure and controllability. The phrase refiner is trained on a novel corruption-refinement strategy which allows it to produce melodic and rhythmic variations of the original motif at generation time, thereby rectifying deviations of the phrase generator. We also introduce a new objective evaluation metric for quantifying how smoothly the motif manifests itself within the piece. Subjective evaluation results show our model achieves better performance compared to state of the art transformer models while having the advantage of being controllable and semi-interpretable, paving the path for musical analysis.
 
 
-<!-- ## Mel-Spectrograms of Reconstructions -->
-
-<!-- We show mel-spectrograms of example input mixes and separated outputs. For each separation from 0 to 15 the Generator is conditioned on the corresponding quantized embedding. By cross-referencing this visualization with the clustering histogram shown below, it is possible to recognize specific sources.
-
-<img src="spectrograms.png">   -->
 
 
-## Audio Examples
+## Audio Generation Framework
+
+<audio src="Audio Generation Framework/4/YY_Generation_Framework.mp3" controls ></audio>
+
 
 <!-- We finally present some audio samples of separations produced by the system. By cross-referencing the cluster index with the histogram shown above, it is possible to recognize the class of sources characteristic of each cluster. -->
 
