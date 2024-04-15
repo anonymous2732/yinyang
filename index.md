@@ -16,17 +16,8 @@ Transformer models have made great strides in generating symbolic music with loc
 
 ## Example 1
 
-<!-- Compound Word Transformer
-<audio src="Audio_Type_1/NLB150927_01_CP.mp3" controls ></audio>
-Music Transformer
-<audio src="Audio_Type_1/NLB150927_01_MT.mp3" controls ></audio>
-YinYang
-<audio src="Audio_Type_1/NLB150927_01_YY.mp3" controls ></audio>
-YinYang Ablated
-<audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio> -->
-
 <!-- Adjust the width of the table -->
-<table style="width: 100%;">
+<!-- <table style="width: 100%;">
     <tr>
         <th style="width: 25%;">Compound Word Transformer</th>
         <th style="width: 25%;">Music Transformer</th>
@@ -39,22 +30,31 @@ YinYang Ablated
         <td><audio src="Audio_Type_1/NLB150927_01_YY.mp3" controls ></audio></td>
         <td><audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio></td>
     </tr>
-</table>
+</table> -->
+
+<!-- Adjust the width of the table container -->
+<div style="overflow-x: auto;">
+    <table style="width: 1600px;">
+        <tr>
+            <th style="width: 400px;">Compound Word Transformer</th>
+            <th style="width: 400px;">Music Transformer</th>
+            <th style="width: 400px;">YinYang</th>
+            <th style="width: 400px;">YinYang Ablated</th>
+        </tr>
+        <tr>
+            <td><audio src="Audio_Type_1/NLB150927_01_CP.mp3" controls ></audio></td>
+            <td><audio src="Audio_Type_1/NLB150927_01_MT.mp3" controls ></audio></td>
+            <td><audio src="Audio_Type_1/NLB150927_01_YY.mp3" controls ></audio></td>
+            <td><audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio></td>
+        </tr>
+    </table>
+</div>
 
 
 ## Example 2
 
-<!-- Compound Word Transformer
-<audio src="Audio_Type_2/NLB075093_01_CP.mp3" controls ></audio>
-Music Transformer
-<audio src="Audio_Type_2/NLB075093_01_MT.mp3" controls ></audio>
-YinYang
-<audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio>
-YinYang Ablated
-<audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio> -->
-
 <!-- Adjust the width of the table -->
-<table style="width: 100%;">
+<!-- <table style="width: 100%;">
     <tr>
         <th style="width: 25%;">Compound Word Transformer</th>
         <th style="width: 25%;">Music Transformer</th>
@@ -67,21 +67,30 @@ YinYang Ablated
         <td><audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio></td>
         <td><audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio></td>
     </tr>
-</table>
+</table> -->
+
+<!-- Adjust the width of the table -->
+<div style="overflow-x: auto;">
+    <table style="width: 1600px;">
+        <tr>
+            <th style="width: 400px;">Compound Word Transformer</th>
+            <th style="width: 400px;">Music Transformer</th>
+            <th style="width: 400px;">YinYang</th>
+            <th style="width: 400px;">YinYang Ablated</th>
+        </tr>
+        <tr>
+            <td><audio src="Audio_Type_2/NLB075093_01_CP.mp3" controls ></audio></td>
+            <td><audio src="Audio_Type_2/NLB075093_01_MT.mp3" controls ></audio></td>
+            <td><audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio></td>
+            <td><audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio></td>
+        </tr>
+    </table>
+</div>
 
 ## Example 3
 
-<!-- Compound Word Transformer
-<audio src="Audio_Type_3/tirol12_CP.mp3" controls ></audio>
-Music Transformer
-<audio src="Audio_Type_3/tirol12_MT.mp3" controls ></audio>
-YinYang
-<audio src="Audio_Type_3/tirol12_YY.mp3" controls ></audio>
-YinYang Ablated
-<audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio> -->
-
 <!-- Adjust the width of the table -->
-<table style="width: 100%;">
+<!-- <table style="width: 100%;">
     <tr>
         <th style="width: 25%;">Compound Word Transformer</th>
         <th style="width: 25%;">Music Transformer</th>
@@ -94,25 +103,45 @@ YinYang Ablated
         <td><audio src="Audio_Type_3/tirol12_YY.mp3" controls ></audio></td>
         <td><audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio></td>
     </tr>
-</table>
+</table> -->
+
+<!-- Adjust the width of the table -->
+<div style="overflow-x: auto;">
+    <table style="width: 1600px;">
+        <tr>
+            <th style="width: 400px;">Compound Word Transformer</th>
+            <th style="width: 400px;">Music Transformer</th>
+            <th style="width: 400px;">YinYang</th>
+            <th style="width: 400px;">YinYang Ablated</th>
+        </tr>
+        <tr>
+            <td><audio src="Audio_Type_3/tirol12_CP.mp3" controls ></audio></td>
+            <td><audio src="Audio_Type_3/tirol12_MT.mp3" controls ></audio></td>
+            <td><audio src="Audio_Type_3/tirol12_YY.mp3" controls ></audio></td>
+            <td><audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio></td>
+        </tr>
+    </table>
+</div>
 
 ## Example 4
 
 <!-- Adjust the width of the table -->
-<table style="width: 100%;">
-    <tr>
-        <th style="width: 25%;">Compound Word Transformer</th>
-        <th style="width: 25%;">Music Transformer</th>
-        <th style="width: 25%;">YinYang</th>
-        <th style="width: 25%;">YinYang Ablated</th>
-    </tr>
-    <tr>
-        <td><audio src="Audio_Type_4/NLB011074_01_CP.mp3" controls ></audio></td>
-        <td><audio src="Audio_Type_4/NLB011074_01_MT.mp3" controls ></audio></td>
-        <td><audio src="Audio_Type_4/NLB011074_01_YY.mp3" controls ></audio></td>
-        <td><audio src="Audio_Type_4/NLB011074_01_YYA.mp3" controls ></audio></td>
-    </tr>
-</table>
+<div style="overflow-x: auto;">
+    <table style="width: 1600px;">
+        <tr>
+            <th style="width: 400px;">Compound Word Transformer</th>
+            <th style="width: 400px;">Music Transformer</th>
+            <th style="width: 400px;">YinYang</th>
+            <th style="width: 400px;">YinYang Ablated</th>
+        </tr>
+        <tr>
+            <td><audio src="Audio_Type_4/NLB011074_01_CP.mp3" controls ></audio></td>
+            <td><audio src="Audio_Type_4/NLB011074_01_MT.mp3" controls ></audio></td>
+            <td><audio src="Audio_Type_4/NLB011074_01_YY.mp3" controls ></audio></td>
+            <td><audio src="Audio_Type_4/NLB011074_01_YYA.mp3" controls ></audio></td>
+        </tr>
+    </table>
+</div>
 
 ## Audio Variations
 The following samples display various transformations paired with corruption tokens to produce interesting variations of the motif.
