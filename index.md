@@ -16,7 +16,7 @@ Transformer models have made great strides in generating symbolic music with loc
 
 ## Example 1
 
-<table style="width: 200%;">
+<table style="width: 100%;">
     <tr>
         <th style="width: 20%;">Model</th>
         <th style="width: 30%;">Audio</th>
@@ -52,7 +52,7 @@ Transformer models have made great strides in generating symbolic music with loc
 
 ## Example 2
 
-<table style="width: 200%;">
+<table style="width: 100%;">
     <tr>
         <th style="width: 20%;">Model</th>
         <th style="width: 30%;">Audio</th>
@@ -76,12 +76,12 @@ Transformer models have made great strides in generating symbolic music with loc
     <tr>
         <td>YinYang</td>
         <td><audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio></td>
-        <td>0-0:23 A section<br> 0:24-0:36 - B section<br> 0:37-0:59 - A section (lower octave)<br> 1:00-1:12 - C section<br> 1:22-1:44 - C section<br> 1:44-end - A section</td>
+        <td>YY sections are arranged as follows:<br> 0-0:26 A section<br> 0:27-0:54 - B section<br> 0:55-1:11 - A section (lower octave)<br> 1:12-1:30 - C section<br> 1:31-end - A section. The B section contains notes outside the key signature with the model's use of chromaticism. However, the phrases in the following sections revert back to the original key signature.</td>
     </tr>
     <tr>
         <td>YinYang Ablated</td>
         <td><audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio></td>
-        <td>abc, additional text here abc, additional text here</td>
+        <td>0-0:23 - A section, 0:24-0:37 B section, 0:49 - C section</td>
     </tr>
 </table>
 
@@ -103,7 +103,7 @@ Transformer models have made great strides in generating symbolic music with loc
     </tr>
 </table> -->
 
-<table style="width: 200%;">
+<table style="width: 100%;">
     <tr>
         <th style="width: 20%;">Model</th>
         <th style="width: 30%;">Audio</th>
@@ -154,7 +154,7 @@ Transformer models have made great strides in generating symbolic music with loc
     </tr>
 </table> -->
 
-<table style="width: 200%;">
+<table style="width: 100%;">
     <tr>
         <th style="width: 20%;">Model</th>
         <th style="width: 30%;">Audio</th>
