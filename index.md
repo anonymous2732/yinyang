@@ -17,7 +17,7 @@ Transformer models have made great strides in generating symbolic music with loc
 ## Example 1
 
 <!-- Adjust the width of the table -->
-<!-- <table style="width: 100%;">
+<table style="width: 100%;">
     <tr>
         <th style="width: 25%;">Compound Word Transformer</th>
         <th style="width: 25%;">Music Transformer</th>
@@ -30,10 +30,10 @@ Transformer models have made great strides in generating symbolic music with loc
         <td><audio src="Audio_Type_1/NLB150927_01_YY.mp3" controls ></audio></td>
         <td><audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio></td>
     </tr>
-</table> -->
+</table>
 
 <!-- Adjust the width of the table container -->
-<div style="overflow-x: auto;">
+<!-- <div style="overflow-x: auto;">
     <table style="width: 1600px;">
         <tr>
             <th style="width: 400px;">Compound Word Transformer</th>
@@ -48,13 +48,13 @@ Transformer models have made great strides in generating symbolic music with loc
             <td><audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio></td>
         </tr>
     </table>
-</div>
+</div> -->
 
 
 ## Example 2
 
 <!-- Adjust the width of the table -->
-<!-- <table style="width: 100%;">
+<table style="width: 100%;">
     <tr>
         <th style="width: 25%;">Compound Word Transformer</th>
         <th style="width: 25%;">Music Transformer</th>
@@ -67,10 +67,10 @@ Transformer models have made great strides in generating symbolic music with loc
         <td><audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio></td>
         <td><audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio></td>
     </tr>
-</table> -->
+</table>
 
 <!-- Adjust the width of the table -->
-<div style="overflow-x: auto;">
+<!-- <div style="overflow-x: auto;">
     <table style="width: 1600px;">
         <tr>
             <th style="width: 400px;">Compound Word Transformer</th>
@@ -85,12 +85,12 @@ Transformer models have made great strides in generating symbolic music with loc
             <td><audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio></td>
         </tr>
     </table>
-</div>
+</div> -->
 
 ## Example 3
 
 <!-- Adjust the width of the table -->
-<!-- <table style="width: 100%;">
+<table style="width: 100%;">
     <tr>
         <th style="width: 25%;">Compound Word Transformer</th>
         <th style="width: 25%;">Music Transformer</th>
@@ -103,10 +103,10 @@ Transformer models have made great strides in generating symbolic music with loc
         <td><audio src="Audio_Type_3/tirol12_YY.mp3" controls ></audio></td>
         <td><audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio></td>
     </tr>
-</table> -->
+</table>
 
 <!-- Adjust the width of the table -->
-<div style="overflow-x: auto;">
+<!-- <div style="overflow-x: auto;">
     <table style="width: 1600px;">
         <tr>
             <th style="width: 400px;">Compound Word Transformer</th>
@@ -121,12 +121,28 @@ Transformer models have made great strides in generating symbolic music with loc
             <td><audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio></td>
         </tr>
     </table>
-</div>
+</div> -->
 
 ## Example 4
 
 <!-- Adjust the width of the table -->
-<div style="overflow-x: auto;">
+<table style="width: 100%;">
+    <tr>
+        <th style="width: 25%;">Compound Word Transformer</th>
+        <th style="width: 25%;">Music Transformer</th>
+        <th style="width: 25%;">YinYang</th>
+        <th style="width: 25%;">YinYang Ablated</th>
+    </tr>
+    <tr>
+        <td><audio src="Audio_Type_4/NLB011074_01_CP.mp3" controls ></audio></td>
+        <td><audio src="Audio_Type_4/NLB011074_01_MT.mp3" controls ></audio></td>
+        <td><audio src="Audio_Type_4/NLB011074_01_YY.mp3" controls ></audio></td>
+        <td><audio src="Audio_Type_4/NLB011074_01_YYA.mp3" controls ></audio></td>
+    </tr>
+</table>
+
+<!-- Adjust the width of the table -->
+<!-- <div style="overflow-x: auto;">
     <table style="width: 1600px;">
         <tr>
             <th style="width: 400px;">Compound Word Transformer</th>
@@ -141,7 +157,7 @@ Transformer models have made great strides in generating symbolic music with loc
             <td><audio src="Audio_Type_4/NLB011074_01_YYA.mp3" controls ></audio></td>
         </tr>
     </table>
-</div>
+</div> -->
 
 ## Audio Variations
 The following samples display various transformations paired with corruption tokens to produce interesting variations of the motif.
