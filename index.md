@@ -35,8 +35,8 @@ Transformer models have made great strides in generating symbolic music with loc
 <table style="width: 200%;">
     <tr>
         <th style="width: 20%;">Model</th>
-        <th style="width: 10%;">Audio</th>
-        <th style="width: 60%;">Description</th>
+        <th style="width: 30%;">Audio</th>
+        <th style="width: 50%;">Description</th>
     </tr>
     <tr>
         <td>Prompt</td>
@@ -69,7 +69,7 @@ Transformer models have made great strides in generating symbolic music with loc
 ## Example 2
 
 <!-- Adjust the width of the table -->
-<table style="width: 100%;">
+<!-- <table style="width: 100%;">
     <tr>
         <th style="width: 25%;">Compound Word Transformer</th>
         <th style="width: 25%;">Music Transformer</th>
@@ -82,12 +82,45 @@ Transformer models have made great strides in generating symbolic music with loc
         <td><audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio></td>
         <td><audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio></td>
     </tr>
+</table> -->
+
+<table style="width: 200%;">
+    <tr>
+        <th style="width: 20%;">Model</th>
+        <th style="width: 30%;">Audio</th>
+        <th style="width: 50%;">Description</th>
+    </tr>
+    <tr>
+        <td>Prompt</td>
+        <td><audio src="Audio_Type_2/NLB075093_01_GT.mp3" controls ></audio></td>
+        <td>abc, additional text here abc, additional text here</td>
+    </tr>
+    <tr>
+        <td>Compound Word Transformer</td>
+        <td><audio src="Audio_Type_2/NLB075093_01_CP.mp3" controls ></audio></td>
+        <td>abc, additional text here abc, additional text here</td>
+    </tr>
+    <tr>
+        <td>Music Transformer</td>
+        <td><audio src="Audio_Type_2/NLB075093_01_MT.mp3" controls ></audio></td>
+        <td>abc, additional text here abc, additional text here</td>
+    </tr>
+    <tr>
+        <td>YinYang</td>
+        <td><audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio></td>
+        <td>abc, additional text here abc, additional text here</td>
+    </tr>
+    <tr>
+        <td>YinYang Ablated</td>
+        <td><audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio></td>
+        <td>abc, additional text here abc, additional text here</td>
+    </tr>
 </table>
 
 ## Example 3
 
 <!-- Adjust the width of the table -->
-<table style="width: 100%;">
+<!-- <table style="width: 100%;">
     <tr>
         <th style="width: 25%;">Compound Word Transformer</th>
         <th style="width: 25%;">Music Transformer</th>
@@ -100,12 +133,45 @@ Transformer models have made great strides in generating symbolic music with loc
         <td><audio src="Audio_Type_3/tirol12_YY.mp3" controls ></audio></td>
         <td><audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio></td>
     </tr>
+</table> -->
+
+<table style="width: 200%;">
+    <tr>
+        <th style="width: 20%;">Model</th>
+        <th style="width: 30%;">Audio</th>
+        <th style="width: 50%;">Description</th>
+    </tr>
+    <tr>
+        <td>Prompt</td>
+        <td><audio src="Audio_Type_3/tirol12_GT.mp3" controls ></audio></td>
+        <td>abc, additional text here abc, additional text here</td>
+    </tr>
+    <tr>
+        <td>Compound Word Transformer</td>
+        <td><audio src="Audio_Type_3/tirol12_CP.mp3" controls ></audio></td>
+        <td>abc, additional text here abc, additional text here</td>
+    </tr>
+    <tr>
+        <td>Music Transformer</td>
+        <td><audio src="Audio_Type_3/tirol12_MT.mp3" controls ></audio></td>
+        <td>abc, additional text here abc, additional text here</td>
+    </tr>
+    <tr>
+        <td>YinYang</td>
+        <td><audio src="Audio_Type_3/tirol12_YY.mp3" controls ></audio></td>
+        <td>abc, additional text here abc, additional text here</td>
+    </tr>
+    <tr>
+        <td>YinYang Ablated</td>
+        <td><audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio></td>
+        <td>abc, additional text here abc, additional text here</td>
+    </tr>
 </table>
 
 ## Example 4
 
 <!-- Adjust the width of the table -->
-<table style="width: 100%;">
+<!-- <table style="width: 100%;">
     <tr>
         <th style="width: 25%;">Compound Word Transformer</th>
         <th style="width: 25%;">Music Transformer</th>
@@ -117,6 +183,39 @@ Transformer models have made great strides in generating symbolic music with loc
         <td><audio src="Audio_Type_4/NLB011074_01_MT.mp3" controls ></audio></td>
         <td><audio src="Audio_Type_4/NLB011074_01_YY.mp3" controls ></audio></td>
         <td><audio src="Audio_Type_4/NLB011074_01_YYA.mp3" controls ></audio></td>
+    </tr>
+</table> -->
+
+<table style="width: 200%;">
+    <tr>
+        <th style="width: 20%;">Model</th>
+        <th style="width: 30%;">Audio</th>
+        <th style="width: 50%;">Description</th>
+    </tr>
+    <tr>
+        <td>Prompt</td>
+        <td><audio src="Audio_Type_4/NLB011074_01_GT.mp3" controls ></audio></td>
+        <td>abc, additional text here abc, additional text here</td>
+    </tr>
+    <tr>
+        <td>Compound Word Transformer</td>
+        <td><audio src="Audio_Type_4/NLB011074_01_CP.mp3" controls ></audio></td>
+        <td>abc, additional text here abc, additional text here</td>
+    </tr>
+    <tr>
+        <td>Music Transformer</td>
+        <td><audio src="Audio_Type_4/NLB011074_01_MT.mp3" controls ></audio></td>
+        <td>abc, additional text here abc, additional text here</td>
+    </tr>
+    <tr>
+        <td>YinYang</td>
+        <td><audio src="Audio_Type_4/NLB011074_01_YY.mp3" controls ></audio></td>
+        <td>abc, additional text here abc, additional text here</td>
+    </tr>
+    <tr>
+        <td>YinYang Ablated</td>
+        <td><audio src="Audio_Type_4/NLB011074_01_YYA.mp3" controls ></audio></td>
+        <td>abc, additional text here abc, additional text here</td>
     </tr>
 </table>
 
