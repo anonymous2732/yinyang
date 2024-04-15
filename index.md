@@ -16,22 +16,6 @@ Transformer models have made great strides in generating symbolic music with loc
 
 ## Example 1
 
-<!-- Adjust the width of the table -->
-<!-- <table style="width: 100%;">
-    <tr>
-        <th style="width: 25%;">Compound Word Transformer</th>
-        <th style="width: 25%;">Music Transformer</th>
-        <th style="width: 25%;">YinYang</th>
-        <th style="width: 25%;">YinYang Ablated</th>
-    </tr>
-    <tr>
-        <td><audio src="Audio_Type_1/NLB150927_01_CP.mp3" controls ></audio></td>
-        <td><audio src="Audio_Type_1/NLB150927_01_MT.mp3" controls ></audio></td>
-        <td><audio src="Audio_Type_1/NLB150927_01_YY.mp3" controls ></audio></td>
-        <td><audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio></td>
-    </tr>
-</table> -->
-
 <table style="width: 200%;">
     <tr>
         <th style="width: 20%;">Model</th>
@@ -41,48 +25,32 @@ Transformer models have made great strides in generating symbolic music with loc
     <tr>
         <td>Prompt</td>
         <td><audio src="Audio_Type_1/NLB150927_01_GT.mp3" controls ></audio></td>
-        <td>abc, additional text here abc, additional text here</td>
+        <td></td>
     </tr>
     <tr>
         <td>Compound Word Transformer</td>
         <td><audio src="Audio_Type_1/NLB150927_01_CP.mp3" controls ></audio></td>
-        <td>abc, additional text here abc, additional text here</td>
+        <td>CP is able to follow the prompt for the first 30 seconds. After that, it diverges too much from the motif, generating excessive appogiatura like embellishments.</td>
     </tr>
     <tr>
         <td>Music Transformer</td>
         <td><audio src="Audio_Type_1/NLB150927_01_MT.mp3" controls ></audio></td>
-        <td>abc, additional text here abc, additional text here</td>
+        <td>MT starts off with repetitive fragment like variations in the beginning but after 0:20, it repeats the same two notes till the end of the generation.</td>
     </tr>
     <tr>
-        <td>YinYang</td>
+        <td>Yin-Yang</td>
         <td><audio src="Audio_Type_1/NLB150927_01_YY.mp3" controls ></audio></td>
-        <td>abc, additional text here abc, additional text here</td>
+        <td>YY is able to follow a melodic structure while adhering to the prompt. Its sections can be heard as follows: <br>0-0:22 - A section <br> 0:23-0:34 - B section <br> 0:35-0:53 - A section <br> 0:54-1:07 - C section <br> 1:07-end - A section </td>
     </tr>
     <tr>
-        <td>YinYang Ablated</td>
+        <td>Yin-Yang Ablated</td>
         <td><audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio></td>
-        <td>abc, additional text here abc, additional text here</td>
+        <td>YYA is also able to follow a melodic structure but it could be argued that the phrases within the sections (not counting exact repetitions) are slightly less similar to that of YY. Its sections can be heard as follows: <br> 0-0:21 - A section <br> 0:22-0:35 - B section <br> 0:36-0:53 - A section (lower octave) <br> 0:54-1:05 - C section <br> 1:06-end - A section</td>
     </tr>
 </table>
 
 
 ## Example 2
-
-<!-- Adjust the width of the table -->
-<!-- <table style="width: 100%;">
-    <tr>
-        <th style="width: 25%;">Compound Word Transformer</th>
-        <th style="width: 25%;">Music Transformer</th>
-        <th style="width: 25%;">YinYang</th>
-        <th style="width: 25%;">YinYang Ablated</th>
-    </tr>
-    <tr>
-        <td><audio src="Audio_Type_2/NLB075093_01_CP.mp3" controls ></audio></td>
-        <td><audio src="Audio_Type_2/NLB075093_01_MT.mp3" controls ></audio></td>
-        <td><audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio></td>
-        <td><audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio></td>
-    </tr>
-</table> -->
 
 <table style="width: 200%;">
     <tr>
@@ -93,22 +61,22 @@ Transformer models have made great strides in generating symbolic music with loc
     <tr>
         <td>Prompt</td>
         <td><audio src="Audio_Type_2/NLB075093_01_GT.mp3" controls ></audio></td>
-        <td>abc, additional text here abc, additional text here</td>
+        <td></td>
     </tr>
     <tr>
         <td>Compound Word Transformer</td>
         <td><audio src="Audio_Type_2/NLB075093_01_CP.mp3" controls ></audio></td>
-        <td>abc, additional text here abc, additional text here</td>
+        <td>CP losely follows the prompt up until the first minute but goes in a tangential direction after. Overlapping note durations can also be heard around 1:30 which is not desirable for the monophonic melodies.</td>
     </tr>
     <tr>
         <td>Music Transformer</td>
         <td><audio src="Audio_Type_2/NLB075093_01_MT.mp3" controls ></audio></td>
-        <td>abc, additional text here abc, additional text here</td>
+        <td>MT initially generates a variation of the prompt which consists of a four note cadence (low-high-low-same). This cadence is repeated throughout in most of the generated phrases. Around 1:07-1:20 it is repeated excessively. </td>
     </tr>
     <tr>
         <td>YinYang</td>
         <td><audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio></td>
-        <td>abc, additional text here abc, additional text here</td>
+        <td>0-0:23 A section<br> 0:24-0:36 - B section<br> 0:37-0:59 - A section (lower octave)<br> 1:00-1:12 - C section<br> 1:22-1:44 - C section<br> 1:44-end - A section</td>
     </tr>
     <tr>
         <td>YinYang Ablated</td>
