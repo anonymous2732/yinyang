@@ -25,9 +25,25 @@ YinYang
 YinYang Ablated
 <audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio> -->
 
-| Compound Word Transformer | Music Transformer | YinYang | YinYang Ablated |
+<!-- | Compound Word Transformer | Music Transformer | YinYang | YinYang Ablated |
 |--------------------------|-------------------|---------|-----------------|
-| <audio src="Audio_Type_1/NLB150927_01_CP.mp3" controls ></audio> | <audio src="Audio_Type_1/NLB150927_01_MT.mp3" controls ></audio> | <audio src="Audio_Type_1/NLB150927_01_YY.mp3" controls ></audio> | <audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio> |
+| <audio src="Audio_Type_1/NLB150927_01_CP.mp3" controls ></audio> | <audio src="Audio_Type_1/NLB150927_01_MT.mp3" controls ></audio> | <audio src="Audio_Type_1/NLB150927_01_YY.mp3" controls ></audio> | <audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio> | -->
+
+<!-- Adjust the width of the table -->
+<table style="width: 100%;">
+    <tr>
+        <th style="width: 25%;">Compound Word Transformer</th>
+        <th style="width: 25%;">Music Transformer</th>
+        <th style="width: 25%;">YinYang</th>
+        <th style="width: 25%;">YinYang Ablated</th>
+    </tr>
+    <tr>
+        <td><audio src="Audio_Type_1/NLB150927_01_CP.mp3" controls ></audio></td>
+        <td><audio src="Audio_Type_1/NLB150927_01_MT.mp3" controls ></audio></td>
+        <td><audio src="Audio_Type_1/NLB150927_01_YY.mp3" controls ></audio></td>
+        <td><audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio></td>
+    </tr>
+</table>
 
 
 ## Example 2
