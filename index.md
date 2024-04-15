@@ -16,36 +16,49 @@ Transformer models have made great strides in generating symbolic music with loc
 
 ## Example 1
 
-Compound Word Transformer
+<!-- Compound Word Transformer
 <audio src="Audio_Type_1/NLB150927_01_CP.mp3" controls ></audio>
 Music Transformer
 <audio src="Audio_Type_1/NLB150927_01_MT.mp3" controls ></audio>
 YinYang
 <audio src="Audio_Type_1/NLB150927_01_YY.mp3" controls ></audio>
 YinYang Ablated
-<audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio>
+<audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio> -->
+
+| Compound Word Transformer | Music Transformer | YinYang | YinYang Ablated |
+|--------------------------|-------------------|---------|-----------------|
+| <audio src="Audio_Type_1/NLB150927_01_CP.mp3" controls ></audio> | <audio src="Audio_Type_1/NLB150927_01_MT.mp3" controls ></audio> | <audio src="Audio_Type_1/NLB150927_01_YY.mp3" controls ></audio> | <audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio> |
+
 
 ## Example 2
 
-Compound Word Transformer
+<!-- Compound Word Transformer
 <audio src="Audio_Type_2/NLB075093_01_CP.mp3" controls ></audio>
 Music Transformer
 <audio src="Audio_Type_2/NLB075093_01_MT.mp3" controls ></audio>
 YinYang
 <audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio>
 YinYang Ablated
-<audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio>
+<audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio> -->
+
+| Compound Word Transformer | Music Transformer | YinYang | YinYang Ablated |
+|--------------------------|-------------------|---------|-----------------|
+| <audio src="Audio_Type_2/NLB075093_01_CP.mp3" controls ></audio> | <audio src="Audio_Type_2/NLB075093_01_MT.mp3" controls ></audio> | <audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio> | <audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio> |
 
 ## Example 3
 
-Compound Word Transformer
+<!-- Compound Word Transformer
 <audio src="Audio_Type_3/tirol12_CP.mp3" controls ></audio>
 Music Transformer
 <audio src="Audio_Type_3/tirol12_MT.mp3" controls ></audio>
 YinYang
 <audio src="Audio_Type_3/tirol12_YY.mp3" controls ></audio>
 YinYang Ablated
-<audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio>
+<audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio> -->
+
+| Compound Word Transformer | Music Transformer | YinYang | YinYang Ablated |
+|--------------------------|-------------------|---------|-----------------|
+| <audio src="Audio_Type_3/tirol12_CP.mp3" controls ></audio> | <audio src="Audio_Type_3/tirol12_MT.mp3" controls ></audio> | <audio src="Audio_Type_3/tirol12_YY.mp3" controls ></audio> | <audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio> |
 
 ## Audio Variations
 The following samples display various transformations paired with corruption tokens to produce interesting variations of the motif.
