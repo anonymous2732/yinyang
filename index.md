@@ -14,7 +14,7 @@ Transformer models have made great strides in generating symbolic music with loc
 
 <audio src="Audio_Generation_Framework/YY_Generation_Framework.mp3" controls ></audio>
 
-## Audio Type 1
+## Example 1
 
 Compound Word Transformer
 <audio src="Audio_Type_1/NLB150927_01_CP.mp3" controls ></audio>
@@ -25,7 +25,7 @@ YinYang
 YinYang Ablated
 <audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio>
 
-## Audio Type 2
+## Example 2
 
 Compound Word Transformer
 <audio src="Audio_Type_2/NLB075093_01_CP.mp3" controls ></audio>
@@ -36,28 +36,29 @@ YinYang
 YinYang Ablated
 <audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio>
 
-## Audio Type 3
+## Example 3
 
 Compound Word Transformer
 <audio src="Audio_Type_3/tirol12_CP.mp3" controls ></audio>
 Music Transformer
 <audio src="Audio_Type_3/tirol12_MT.mp3" controls ></audio>
-<!-- YinYang
+YinYang
 <audio src="Audio_Type_3/tirol12_YY.mp3" controls ></audio>
 YinYang Ablated
-<audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio> -->
+<audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio>
 
 ## Audio Variations
+The following samples display various transformations paired with corruption tokens to produce interesting variations of the motif.
 
-Expand Melody
+Augmentation Transformation with Melodic Stripping Corruption
 <audio src="Audio_Variations/han1006_mono_expand_melody_combined.mp3" controls ></audio>
-Invert Melody
+Modal Inversion Transformation with Incorrect Inversion Corruption
 <audio src="Audio_Variations/han1006_mono_invert_melody_strict_combined.mp3" controls ></audio>
-Masking
-<audio src="Audio_Variations/han1006_mono_masking_combined.mp3" controls ></audio>
-Permute Melody Pitch Rhythm
+Fragmentation Transformation with Fragmentation Corruption
+<audio src="Audio_Variations/han1006_mono_fragmentation_combined.mp3" controls ></audio>
+Pitch Rhythm Permutation Transformation with Pitch Rhythm Permutation Corruption
 <audio src="Audio_Variations/han1006_mono_permute_melody_pitch_rhythm_combined.mp3" controls ></audio>
-Retrograde Melody Pitch Rythm
+Pitch Rythm Retrograde with Incorrect Inversion Corruption
 <audio src="Audio_Variations/han1006_mono_retrograde_melody_pitch_rhythm_combined.mp3" controls ></audio>
 
 
