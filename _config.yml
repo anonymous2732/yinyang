@@ -1,7 +1,7 @@
 # remote_theme: pages-themes/cayman@v0.2.0
 remote_theme: oinam/oinam-jekyll
 
-title: Yin-Yang: A Neuro-Symbolic Framework For Developing Motifs With Long-Term Structure And Controllability
+title: 
 
 layout:
   theme: default # default, vintage, nord

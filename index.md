@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Yin-Yang: A Neuro-Symbolic Framework For Developing Motifs With Long-Term Structure And Controllability
 ---
 
 # Yin-Yang: A Neuro-Symbolic Framework For Developing Motifs With Long-Term Structure And Controllability
