@@ -116,7 +116,7 @@ Transformer models have made great strides in generating symbolic music with loc
     <tr style="border-bottom: 1px solid black;">
         <td>YinYang Ablated</td>
         <td><audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio></td>
-        <td>YYA is full of variations. However, not all of them share resemblence with the prompt, owing to the absence of the phrase selector. 0:22 marks section B. At 0:49, an unusual high pitched note can be heard which belongs to the same scale of the piece. Section A is restated at 0:58 in a higher octave. While the next phrase begins in a faster and interesting rhythmic pattern, the phrase generator repeats the Eb note a bit excessively. However, the model is able to break free from the repetition with the help of the refiner due to the start of the C section at 1:15. At 1:32, the A section theme is restated again with an interesting three-note rhythmic pattern that leads to the end of the piece. </td>
+        <td>YYA is full of variations. However, not all phrases within the sections are homogeneous, owing to the absence of the phrase selector. 0:22 marks section B. At 0:49, an unusual high pitched note can be heard which belongs to the same scale of the piece. Section A is restated at 0:58 in a higher octave. While the next phrase begins in a faster and interesting rhythmic pattern, the phrase generator repeats the Eb note a bit excessively. However, the model is able to break free from the repetition with the help of the refiner due to the start of the C section at 1:15. At 1:32, the A section theme is restated again with an interesting three-note rhythmic pattern that leads to the end of the piece. </td>
     </tr>
 </table>
 
@@ -136,22 +136,22 @@ Transformer models have made great strides in generating symbolic music with loc
     <tr style="border-bottom: 1px solid black;">
         <td>Compound Word Transformer</td>
         <td><audio src="Audio_Type_4/NLB011074_01_CP.mp3" controls ></audio></td>
-        <td></td>
+        <td>The last three notes of the initial motif can be heard in some moments with the CP model. However, the structure is vague with long duration notes in between and lacking distinct musical ideas.</td>
     </tr>
     <tr style="border-bottom: 1px solid black;">
         <td>Music Transformer</td>
         <td><audio src="Audio_Type_4/NLB011074_01_MT.mp3" controls ></audio></td>
-        <td></td>
+        <td>MT repeats a fragment of the motif consisting of two notes (a short one and a long one right after) excessively throughout the piece, resulting in a monotonous rhythmic structure.</td>
     </tr>
     <tr style="border-bottom: 1px solid black;">
         <td>YinYang</td>
         <td><audio src="Audio_Type_4/NLB011074_01_YY.mp3" controls ></audio></td>
-        <td></td>
+        <td>YY produces a melody with a diverse range of pitches, touching high as well as low note pitches. All sections have clear phrase boundaries with interesting variations. Section B starts at 0:20 but is kept short till 0:33 after which the original theme is stated in a lower octave. Section C starts at 1:01 with the new motif given by the different rhythmic structure. At 1:23 the A section theme is brought back at a lower octave. However, the cadence of the piece sounds incomplete. One reason for this may be due to the call and response like generation throughout the piece, setting up the perceptual expectation that there would be a response to the last phrase. However, as the number of phrases and sections are fixed before generation, the piece ends once the maximum phrases are obtained. Had the user specified an extra phrase for this section, it may have resulted in a phrase with a more satisfying cadence. </td>
     </tr>
     <tr style="border-bottom: 1px solid black;">
         <td>YinYang Ablated</td>
         <td><audio src="Audio_Type_4/NLB011074_01_YYA.mp3" controls ></audio></td>
-        <td></td>
+        <td>While YYA is able to adhere to the initial prompt in its structure while also producing diverse results, it does occasionally produce notes outside the scale of the piece. This is especially heard in the B section from 0:14 to 0:30. The A section theme comes back at 0:31 in a lower octave with variations of the motif produced till 0:47 when the C section starts. As the new motif is derived from an arbitrary phrase of the previous sections, it still retains some of the rhythmic patterns of the motif from section A, resulting in a similar three note fragment.</td>
     </tr>
 </table>
 
