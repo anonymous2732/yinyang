@@ -11,7 +11,7 @@ Transformer models have made great strides in generating symbolic music with loc
 
 ## Example 1
 
-<table style="width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
+<table style="margin-left: -5cm !important; width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
         <th style="width: 20%; border: 1px solid black;">Model</th>
         <th style="width: 30%; border: 1px solid black;">Audio</th>
@@ -47,7 +47,7 @@ Transformer models have made great strides in generating symbolic music with loc
 
 ## Example 2
 
-<table style="width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
+<table style="margin-left: -5cm !important; width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
         <th style="width: 20%; border: 1px solid black;">Model</th>
         <th style="width: 30%; border: 1px solid black;">Audio</th>
@@ -82,7 +82,7 @@ Transformer models have made great strides in generating symbolic music with loc
 
 ## Example 3
 
-<table style="width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
+<table style="margin-left: -5cm !important; width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
         <th style="width: 20%; border: 1px solid black;">Model</th>
         <th style="width: 30%; border: 1px solid black;">Audio</th>
@@ -117,7 +117,7 @@ Transformer models have made great strides in generating symbolic music with loc
 
 ## Example 4
 
-<table style="width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
+<table style="margin-left: -5cm !important; width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
         <th style="width: 20%; border: 1px solid black;">Model</th>
         <th style="width: 30%; border: 1px solid black;">Audio</th>
