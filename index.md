@@ -164,7 +164,7 @@ The motif is stated in P1. P2 is generated with the phrase generator. P3 uses th
 ## Audio Variations
 The following samples display various transformations paired with corruption tokens to produce interesting variations of the motif.
 
-Augmentation Transformation with Melodic Stripping Corruption
+<!-- Augmentation Transformation with Melodic Stripping Corruption
 <audio src="Audio_Variations/han1006_mono_expand_melody_combined.mp3" controls ></audio>
 Modal Inversion Transformation with Incorrect Inversion Corruption
 <audio src="Audio_Variations/han1006_mono_invert_melody_strict_combined.mp3" controls ></audio>
@@ -173,7 +173,41 @@ Fragmentation Transformation with Fragmentation Corruption
 Pitch Rhythm Permutation Transformation with Pitch Rhythm Permutation Corruption
 <audio src="Audio_Variations/han1006_mono_permute_melody_pitch_rhythm_combined.mp3" controls ></audio>
 Pitch Rythm Retrograde with Incorrect Inversion Corruption
-<audio src="Audio_Variations/han1006_mono_retrograde_melody_pitch_rhythm_combined.mp3" controls ></audio>
+<audio src="Audio_Variations/han1006_mono_retrograde_melody_pitch_rhythm_combined.mp3" controls ></audio> -->
+
+
+<table style="width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
+    <tr>
+        <th style="width: 20%; border: 1px solid black;">Transformation</th>
+        <th style="width: 20%; border: 1px solid black;">Corruption</th>
+        <th style="width: 60%; border: 1px solid black;">Audio</th>
+    </tr>
+    <tr style="border-bottom: 1px solid black;">
+        <td>Augmentation</td>
+        <td>Melodic Stripping</td>
+        <td><audio src="Audio_Variations/han1006_mono_expand_melody_combined.mp3" controls ></audio></td>
+    </tr>
+    <tr style="border-bottom: 1px solid black;">
+        <td>Modal Inversion</td>
+        <td>Incorrect Inversion</td>
+        <td><audio src="Audio_Variations/han1006_mono_invert_melody_strict_combined.mp3" controls ></audio></td>
+    </tr>
+    <tr style="border-bottom: 1px solid black;">
+        <td>Fragmentation</td>
+        <td>Fragmentation</td>
+        <td><audio src="Audio_Variations/han1006_mono_fragmentation_combined.mp3" controls ></audio></td>
+    </tr>
+    <tr style="border-bottom: 1px solid black;">
+        <td>Pitch Rhythm Permutation</td>
+        <td>Pitch Rhythm Permutation</td>
+        <td><audio src="Audio_Variations/han1006_mono_permute_melody_pitch_rhythm_combined.mp3" controls ></audio></td>
+    </tr>
+    <tr style="border-bottom: 1px solid black;">
+        <td>Pitch Rythm Retrograde</td>
+        <td>Incorrect Inversion</td>
+        <td><audio src="Audio_Variations/han1006_mono_retrograde_melody_pitch_rhythm_combined.mp3" controls ></audio></td>
+    </tr>
+</table>
 
 
 <!-- We finally present some audio samples of separations produced by the system. By cross-referencing the cluster index with the histogram shown above, it is possible to recognize the class of sources characteristic of each cluster. -->
