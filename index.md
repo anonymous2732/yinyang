@@ -150,7 +150,7 @@ Transformer models have made great strides in generating symbolic music with loc
     </tr>
 </table>
 
-## Audio Generation Framework
+## Yin-Yang Generation Framework
 
 <audio src="Audio_Generation_Framework/YY_Generation_Framework.mp3" controls ></audio>
 
@@ -161,7 +161,7 @@ The score presented with the music demonstrates how the phrase generation and re
 The motif is stated in P1. P2 is generated with the phrase generator. P3 uses the phrase refiner to transform and refine the motif using the reduction transformation paired with the melodic addition corruption. The refinement is with respect to phrase P2. The new section starts with P4 which arbitrarily chooses the P3 phrase and applies the note pitch and rhythm permutation transformation and corruption. P5 from the phrase generator elaborates on the new motif before the refiner is brought back to transform the section B motif using contraction (or diminution) transformation paired with same note modification corruption token. This phrase halves the duration of the motif to semi-quavers with respect to the previous phrase P5. Finally, P7 is generated as the last phrase in this example conditioned to generate a long duration for the cadence.
 
 
-## Audio Variations
+## Motif Variations
 The following samples display various transformations paired with corruption tokens to produce interesting variations of the motif.
 
 <div style="text-align: left;">
