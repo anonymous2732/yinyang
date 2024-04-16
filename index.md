@@ -165,7 +165,7 @@ The motif is stated in P1. P2 is generated with the phrase generator. P3 uses th
 The following samples display various transformations paired with corruption tokens to produce interesting variations of the motif.
 
 <div style="text-align: left;">
-<table style="margin-left: 0 !important; width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
+<table style="margin-left: -5cm !important; width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
         <th style="width: 15%; border: 1px solid black;">Transformation</th>
         <th style="width: 15%; border: 1px solid black;">Corruption</th>
