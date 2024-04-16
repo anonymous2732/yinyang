@@ -8,12 +8,6 @@ layout: default
 Transformer models have made great strides in generating symbolic music with local coherence. Yet, controlling the development of motifs in a structured way with global form remains an open research area. One of the reasons for this challenge is due to the note-by-note autoregressive generation of such models which lack the ability to correct themselves after deviations from the motif. In addition, their structural performance on datasets with shorter durations has not been studied in the literature. In this study, we propose Yin-Yang, a neuro-symbolic framework consisting of a phrase generator, phrase refiner and phrase selector models for development of motifs with long-term structure and controllability. The phrase refiner is trained on a novel corruption-refinement strategy which allows it to produce melodic and rhythmic variations of the original motif at generation time, thereby rectifying deviations of the phrase generator. We also introduce a new objective evaluation metric for quantifying how smoothly the motif manifests itself within the piece. Subjective evaluation results show our model achieves better performance compared to state of the art transformer models while having the advantage of being controllable and semi-interpretable, paving the path for musical analysis.
 
 
-
-
-## Audio Generation Framework
-
-<audio src="Audio_Generation_Framework/YY_Generation_Framework.mp3" controls ></audio>
-
 ## Example 1
 
 <table style="width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
@@ -154,6 +148,12 @@ Transformer models have made great strides in generating symbolic music with loc
         <td>While YYA is able to adhere to the initial prompt in its structure while also producing diverse results, it does occasionally produce notes outside the scale of the piece due to the absence of the selector model. This is especially heard in the B section from 0:14 to 0:30. The A section theme comes back at 0:31 in a lower octave with variations of the motif produced till 0:47 when the C section starts. As the new motif is derived from an arbitrary phrase of the previous sections, it still retains some of the rhythmic patterns of the motif from section A, resulting in a similar three note fragment. The A section is stated again for the fifth section at 1:04. The last few notes leading up to the cadence in this section lie outside the scale, making it unexpected. This produces a musical tension just before resolving it with the cadence with notes of the same scale again.</td>
     </tr>
 </table>
+
+## Audio Generation Framework
+
+<audio src="Audio_Generation_Framework/YY_Generation_Framework.mp3" controls ></audio>
+<br>
+![The score for the audio is displayed here.]("Audio_Generation_Framework/YY_Generation_Framework.png")
 
 
 ## Audio Variations
