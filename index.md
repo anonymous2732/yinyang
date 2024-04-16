@@ -16,7 +16,7 @@ Transformer models have made great strides in generating symbolic music with loc
 
 ## Example 1
 
-<table style="width: 150%; border-collapse: collapse; border: 2px solid black;">
+<table style="width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
         <th style="width: 20%; border: 1px solid black;">Model</th>
         <th style="width: 30%; border: 1px solid black;">Audio</th>
@@ -52,119 +52,103 @@ Transformer models have made great strides in generating symbolic music with loc
 
 ## Example 2
 
-<table style="width: 150%; border-collapse: collapse; border: 2px solid black;">
+<table style="width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
         <th style="width: 20%; border: 1px solid black;">Model</th>
         <th style="width: 30%; border: 1px solid black;">Audio</th>
         <th style="width: 50%; border: 1px solid black;">Description</th>
     </tr>
-    <tr>
+    <tr style="border-bottom: 1px solid black;">
         <td>Prompt</td>
         <td><audio src="Audio_Type_2/NLB075093_01_GT.mp3" controls ></audio></td>
         <td></td>
     </tr>
-    <tr>
+    <tr style="border-bottom: 1px solid black;">
         <td>Compound Word Transformer</td>
         <td><audio src="Audio_Type_2/NLB075093_01_CP.mp3" controls ></audio></td>
         <td>CP losely follows the prompt up until the first minute but goes in a tangential direction after. Overlapping note durations can also be heard around 1:30 which is not desirable for the monophonic melodies.</td>
     </tr>
-    <tr>
+    <tr style="border-bottom: 1px solid black;">
         <td>Music Transformer</td>
         <td><audio src="Audio_Type_2/NLB075093_01_MT.mp3" controls ></audio></td>
         <td>MT initially generates a variation of the prompt which consists of a four note cadence (low-high-low-same). This cadence is repeated throughout in most of the generated phrases. Around 1:07-1:20 it is repeated excessively. </td>
     </tr>
-    <tr>
+    <tr style="border-bottom: 1px solid black;">
         <td>YinYang</td>
         <td><audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio></td>
         <td>YY sections are arranged as follows:<br> 0-0:26 A section<br> 0:27-0:54 - B section<br> 0:55-1:11 - A section (lower octave)<br> 1:12-1:30 - C section<br> 1:31-end - A section.<br> The B section contains notes outside the key signature with the model's use of chromaticism. However, the phrases in the following sections revert back to the original key signature.</td>
     </tr>
-    <tr>
+    <tr style="border-bottom: 1px solid black;">
         <td>YinYang Ablated</td>
         <td><audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio></td>
-        <td>YYA consists of distinct musical ideas. However, while the B section starts at 0:27, it becomes more prominent at 0:38, which is a variation of the new motif. Its sections are organized as follows:<br>0-0:26 - A section <br> 0:27-0:57 B section <br> 0:58-1:17 - A section <br> 1:18-1:37 - C section <br> 1:38-end - A section</td>
+        <td>YYA consists of distinct musical ideas. However, while the B section starts at 0:27, it becomes more prominent at 0:38, which is a variation of the new motif. At 1:03, the phrase is completed by notes of a higher pitch. While it comes as a surprise, it may be an unlikely occurrence if the phrase selector were added in like YY. Its sections are organized as follows:<br>0-0:26 - A section <br> 0:27-0:57 B section <br> 0:58-1:17 - A section <br> 1:18-1:37 - C section <br> 1:38-end - A section</td>
     </tr>
 </table>
 
 ## Example 3
 
-<!-- Adjust the width of the table -->
-<!-- <table style="width: 100%;">
-    <tr>
-        <th style="width: 25%;">Compound Word Transformer</th>
-        <th style="width: 25%;">Music Transformer</th>
-        <th style="width: 25%;">YinYang</th>
-        <th style="width: 25%;">YinYang Ablated</th>
-    </tr>
-    <tr>
-        <td><audio src="Audio_Type_3/tirol12_CP.mp3" controls ></audio></td>
-        <td><audio src="Audio_Type_3/tirol12_MT.mp3" controls ></audio></td>
-        <td><audio src="Audio_Type_3/tirol12_YY.mp3" controls ></audio></td>
-        <td><audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio></td>
-    </tr>
-</table> -->
-
-<table style="width: 150%; border-collapse: collapse; border: 2px solid black;">
+<table style="width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
         <th style="width: 20%; border: 1px solid black;">Model</th>
         <th style="width: 30%; border: 1px solid black;">Audio</th>
         <th style="width: 50%; border: 1px solid black;">Description</th>
     </tr>
-    <tr>
+    <tr style="border-bottom: 1px solid black;">
         <td>Prompt</td>
         <td><audio src="Audio_Type_3/tirol12_GT.mp3" controls ></audio></td>
         <td></td>
     </tr>
-    <tr>
+    <tr style="border-bottom: 1px solid black;">
         <td>Compound Word Transformer</td>
         <td><audio src="Audio_Type_3/tirol12_CP.mp3" controls ></audio></td>
-        <td></td>
+        <td>CP responds well to the motif in its first phrase. At the start of 0:18, the beginning of a new section can be heard. Around 0:41 there is yet another section that the model generates. However, throughout the piece, the music does not resemble the initial prompt. </td>
     </tr>
-    <tr>
+    <tr style="border-bottom: 1px solid black;">
         <td>Music Transformer</td>
         <td><audio src="Audio_Type_3/tirol12_MT.mp3" controls ></audio></td>
-        <td></td>
+        <td>MT generation comprises a structure of two phrases, of which one is varied while the other consisting of 4 notes (note-high-same-low) is repeated excessively throughout the piece. In addition, the generation does not refer back to the original prompt at all.</td>
     </tr>
-    <tr>
+    <tr style="border-bottom: 1px solid black;">
         <td>YinYang</td>
         <td><audio src="Audio_Type_3/tirol12_YY.mp3" controls ></audio></td>
-        <td></td>
+        <td>The first phrase generated by YY is a response to the prompt. The long note followed by the short one at the end of the motif are generated in the subsequent phrases, making it easy to relate to the prompt. The B section starts at 0:29 up with slightly different rhythmic patterns compared to section A. At 0:49, the original motif is restated with a call and response like variation. A new motif belonging to section C can be heard at 1:10. However, because the model looks at the last note of the previous phrase to produce a new motif for this section, it still retains the longer duration of the note in its cadence. At 1:33, the original theme from section A is stated again with a response that ends in an upward cadence.</td>
     </tr>
-    <tr>
+    <tr style="border-bottom: 1px solid black;">
         <td>YinYang Ablated</td>
         <td><audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio></td>
-        <td></td>
+        <td>YYA is full of variations. However, not all of them share resemblence with the prompt, owing to the absence of the phrase selector. 0:22 marks section B. At 0:49, an unusual high pitched note can be heard which belongs to the same scale of the piece. Section A is restated at 0:58 in a higher octave. While the next phrase begins in a faster and interesting rhythmic pattern, the phrase generator repeats the Eb note a bit excessively. However, the model is able to break free from the repetition with the help of the refiner due to the start of the C section at 1:15. At 1:32, the A section theme is restated again with an interesting three-note rhythmic pattern that leads to the end of the piece. </td>
     </tr>
 </table>
 
 ## Example 4
 
-<table style="width: 150%; border-collapse: collapse; border: 2px solid black;">
+<table style="width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
         <th style="width: 20%; border: 1px solid black;">Model</th>
         <th style="width: 30%; border: 1px solid black;">Audio</th>
         <th style="width: 50%; border: 1px solid black;">Description</th>
     </tr>
-    <tr>
+    <tr style="border-bottom: 1px solid black;">
         <td>Prompt</td>
         <td><audio src="Audio_Type_4/NLB011074_01_GT.mp3" controls ></audio></td>
         <td></td>
     </tr>
-    <tr>
+    <tr style="border-bottom: 1px solid black;">
         <td>Compound Word Transformer</td>
         <td><audio src="Audio_Type_4/NLB011074_01_CP.mp3" controls ></audio></td>
         <td></td>
     </tr>
-    <tr>
+    <tr style="border-bottom: 1px solid black;">
         <td>Music Transformer</td>
         <td><audio src="Audio_Type_4/NLB011074_01_MT.mp3" controls ></audio></td>
         <td></td>
     </tr>
-    <tr>
+    <tr style="border-bottom: 1px solid black;">
         <td>YinYang</td>
         <td><audio src="Audio_Type_4/NLB011074_01_YY.mp3" controls ></audio></td>
         <td></td>
     </tr>
-    <tr>
+    <tr style="border-bottom: 1px solid black;">
         <td>YinYang Ablated</td>
         <td><audio src="Audio_Type_4/NLB011074_01_YYA.mp3" controls ></audio></td>
         <td></td>
