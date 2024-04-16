@@ -18,3 +18,7 @@ table {
 th, td {
   border: 1px solid black; /* Add a border to each cell */
 }
+
+h1 {
+  display: none;
+}
