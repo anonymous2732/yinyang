@@ -180,32 +180,38 @@ Pitch Rythm Retrograde with Incorrect Inversion Corruption
     <tr>
         <th style="width: 20%; border: 1px solid black;">Transformation</th>
         <th style="width: 20%; border: 1px solid black;">Corruption</th>
-        <th style="width: 60%; border: 1px solid black;">Audio</th>
+        <th style="width: 20%; border: 1px solid black;">Audio</th>
+        <th style="width: 40%; border: 1px solid black;">Description</th>
     </tr>
     <tr style="border-bottom: 1px solid black;">
-        <td>Augmentation</td>
-        <td>Melodic Stripping</td>
+        <td>Fragmentation + Augmentation</td>
+        <td>Fragmentation + Melodic Stripping</td>
         <td><audio src="Audio_Variations/han1006_mono_expand_melody_combined.mp3" controls ></audio></td>
-    </tr>
-    <tr style="border-bottom: 1px solid black;">
-        <td>Modal Inversion</td>
-        <td>Incorrect Inversion</td>
-        <td><audio src="Audio_Variations/han1006_mono_invert_melody_strict_combined.mp3" controls ></audio></td>
+        <td>Fragmentation and augmentation transformations together increase the duration of a particular fragment of the phrase. When combined with the fragmentation and melodic stripping corruption tokens, it tricks the refiner into filling in notes between the augmented ones, as if they had been ommitted. This produces a high similarity variation.</td>
     </tr>
     <tr style="border-bottom: 1px solid black;">
         <td>Fragmentation</td>
         <td>Fragmentation</td>
         <td><audio src="Audio_Variations/han1006_mono_fragmentation_combined.mp3" controls ></audio></td>
+        <td>Fragmentation transformation and corruption together keep a fragment while generating the surrounding notes to produce a high similarity variation.</td>
     </tr>
     <tr style="border-bottom: 1px solid black;">
-        <td>Pitch Rhythm Permutation</td>
-        <td>Pitch Rhythm Permutation</td>
+        <td>Modal Inversion</td>
+        <td>Incorrect Inversion</td>
+        <td><audio src="Audio_Variations/han1006_mono_invert_melody_strict_combined.mp3" controls ></audio></td>
+        <td>Modal inversion transformation inverts the intervals between the notes, causing the pitch contour to change, resulting in a low similarity variation. When paired with the incorrect inversion corruption token, the refiner takes the previous phrase (the 2 bar motif in this case) as musical context so as not to produce a strict melodic inversion but a more flexible musically meaningful one.</td>
+    </tr>
+    <tr style="border-bottom: 1px solid black;">
+        <td>Pitch Durtaion Permutation</td>
+        <td>Pitch Duration Permutation</td>
         <td><audio src="Audio_Variations/han1006_mono_permute_melody_pitch_rhythm_combined.mp3" controls ></audio></td>
+        <td>Pitch and duration permutation simply shuffles up the notes provided as conditioning to the refiner. While in practice it is intended to produce a low similarity variation, in this case as the previous phrase is also equivalent to the transformed one, it produces a highly similar variation.</td>
     </tr>
     <tr style="border-bottom: 1px solid black;">
-        <td>Pitch Rythm Retrograde</td>
+        <td>Pitch Duration Retrograde</td>
         <td>Incorrect Inversion</td>
         <td><audio src="Audio_Variations/han1006_mono_retrograde_melody_pitch_rhythm_combined.mp3" controls ></audio></td>
+        <td>A retrograde on the pitch and duration of the transformed phrase paired with the incorrect inversion token generates a flexible retrograded phrase, taking the previous phrase into context. As heard, the pitch contour has now changed, yielding a low similarity variation.</td>
     </tr>
 </table>
 
