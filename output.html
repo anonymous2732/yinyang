@@ -1,15 +1,9 @@
----
-layout: default
----
-
-# Yin-Yang: A Neuro-Symbolic Framework For Developing Motifs With Long-Term Structure And Controllability
-
-**Abstract**  
-Transformer models have made great strides in generating symbolic music with local coherence. Yet, controlling the development of motifs in a structured way with global form remains an open research area. One of the reasons for this challenge is due to the note-by-note autoregressive generation of such models which lack the ability to correct themselves after deviations from the motif. In addition, their structural performance on datasets with shorter durations has not been studied in the literature. In this study, we propose Yin-Yang, a neuro-symbolic framework consisting of a phrase generator, phrase refiner and phrase selector models for development of motifs with long-term structure and controllability. The phrase refiner is trained on a novel corruption-refinement strategy which allows it to produce melodic and rhythmic variations of the original motif at generation time, thereby rectifying deviations of the phrase generator. We also introduce a new objective evaluation metric for quantifying how smoothly the motif manifests itself within the piece. Subjective evaluation results show our model achieves better performance compared to state of the art transformer models while having the advantage of being controllable and semi-interpretable, paving the path for musical analysis.
-
-
-## Example 1
-
+<hr>
+<h2>layout: default</h2>
+<h1>Yin-Yang: A Neuro-Symbolic Framework For Developing Motifs With Long-Term Structure And Controllability</h1>
+<p><strong>Abstract</strong><br>
+Transformer models have made great strides in generating symbolic music with local coherence. Yet, controlling the development of motifs in a structured way with global form remains an open research area. One of the reasons for this challenge is due to the note-by-note autoregressive generation of such models which lack the ability to correct themselves after deviations from the motif. In addition, their structural performance on datasets with shorter durations has not been studied in the literature. In this study, we propose Yin-Yang, a neuro-symbolic framework consisting of a phrase generator, phrase refiner and phrase selector models for development of motifs with long-term structure and controllability. The phrase refiner is trained on a novel corruption-refinement strategy which allows it to produce melodic and rhythmic variations of the original motif at generation time, thereby rectifying deviations of the phrase generator. We also introduce a new objective evaluation metric for quantifying how smoothly the motif manifests itself within the piece. Subjective evaluation results show our model achieves better performance compared to state of the art transformer models while having the advantage of being controllable and semi-interpretable, paving the path for musical analysis.</p>
+<h2>Example 1</h2>
 <table style="width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
         <th style="width: 20%; border: 1px solid black;">Model</th>
@@ -42,10 +36,7 @@ Transformer models have made great strides in generating symbolic music with loc
         <td>YYA is also able to follow a melodic structure but it could be argued that the phrases within the sections (not counting exact repetitions) are slightly less similar to that of YY. Its sections can be heard as follows: <br> 0-0:21 - A section <br> 0:22-0:35 - B section <br> 0:36-0:53 - A section (lower octave) <br> 0:54-1:05 - C section <br> 1:06-end - A section</td>
     </tr>
 </table>
-
-
-## Example 2
-
+<h2>Example 2</h2>
 <table style="width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
         <th style="width: 20%; border: 1px solid black;">Model</th>
@@ -78,9 +69,7 @@ Transformer models have made great strides in generating symbolic music with loc
         <td>YYA consists of distinct musical ideas. However, while the B section starts at 0:27, it becomes more prominent at 0:38, which is a variation of the new motif. At 1:03, the phrase is completed by notes of a higher pitch. While it comes as a surprise, it may be an unlikely occurrence if the phrase selector were added in like YY. Its sections are organized as follows:<br>0-0:26 - A section <br> 0:27-0:57 B section <br> 0:58-1:17 - A section <br> 1:18-1:37 - C section <br> 1:38-end - A section</td>
     </tr>
 </table>
-
-## Example 3
-
+<h2>Example 3</h2>
 <table style="width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
         <th style="width: 20%; border: 1px solid black;">Model</th>
@@ -113,9 +102,7 @@ Transformer models have made great strides in generating symbolic music with loc
         <td>YYA is full of variations. However, not all phrases within the sections are homogeneous, owing to the absence of the phrase selector. 0:22 marks section B. At 0:49, an unusual high pitched note can be heard which belongs to the same scale of the piece. Section A is restated at 0:58 in a higher octave. While the next phrase begins in a faster and interesting rhythmic pattern, the phrase generator repeats the Eb note a bit excessively. However, the model is able to break free from the repetition with the help of the refiner due to the start of the C section at 1:15. At 1:32, the A section theme is restated again with an interesting three-note rhythmic pattern that leads to the end of the piece. </td>
     </tr>
 </table>
-
-## Example 4
-
+<h2>Example 4</h2>
 <table style="width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
         <th style="width: 20%; border: 1px solid black;">Model</th>
@@ -148,22 +135,14 @@ Transformer models have made great strides in generating symbolic music with loc
         <td>While YYA is able to adhere to the initial prompt in its structure while also producing diverse results, it does occasionally produce notes outside the scale of the piece due to the absence of the selector model. This is especially heard in the B section from 0:14 to 0:30. The A section theme comes back at 0:31 in a lower octave with variations of the motif produced till 0:47 when the C section starts. As the new motif is derived from an arbitrary phrase of the previous sections, it still retains some of the rhythmic patterns of the motif from section A, resulting in a similar three note fragment. The A section is stated again for the fifth section at 1:04. The last few notes leading up to the cadence in this section lie outside the scale, making it unexpected. This produces a musical tension just before resolving it with the cadence with notes of the same scale again.</td>
     </tr>
 </table>
-
-## Audio Generation Framework
-
-<audio src="Audio_Generation_Framework/YY_Generation_Framework.mp3" controls ></audio>
-
+<h2>Audio Generation Framework</h2>
+<p><audio src="Audio_Generation_Framework/YY_Generation_Framework.mp3" controls ></audio></p>
 <img src="Audio_Generation_Framework/YY_Generation_Framework.png" alt="The score for the audio is displayed here." width="1000">
-
-The score presented with the music demonstrates how the phrase generation and refinement model work simultaneously in the Yin-Yang generation framework. This example follows a AB structure consisting of 7 phrases in total (3 phrases for section A, 4 phrases for section B). <br>
-
-The motif is stated in P1. P2 is generated with the phrase generator. P3 uses the phrase refiner to transform and refine the motif using the reduction transformation paired with the melodic addition corruption. The refinement is with respect to phrase P2. The new section starts with P4 which arbitrarily chooses the P3 phrase and applies the note pitch and rhythm permutation transformation and corruption. P5 from the phrase generator elaborates on the new motif before the refiner is brought back to transform the section B motif using contraction (or diminution) transformation paired with same note modification corruption token. This phrase halves the duration of the motif to semi-quavers with respect to the previous phrase P5. Finally, P7 is generated as the last phrase in this example conditioned to generate a long duration for the cadence.
-
-
-## Audio Variations
-The following samples display various transformations paired with corruption tokens to produce interesting variations of the motif.
-
-Augmentation Transformation with Melodic Stripping Corruption
+<p>The score presented with the music demonstrates how the phrase generation and refinement model work simultaneously in the Yin-Yang generation framework. This example follows a AB structure consisting of 7 phrases in total (3 phrases for section A, 4 phrases for section B). <br></p>
+<p>The motif is stated in P1. P2 is generated with the phrase generator. P3 uses the phrase refiner to transform and refine the motif using the reduction transformation paired with the melodic addition corruption. The refinement is with respect to phrase P2. The new section starts with P4 which arbitrarily chooses the P3 phrase and applies the note pitch and rhythm permutation transformation and corruption. P5 from the phrase generator elaborates on the new motif before the refiner is brought back to transform the section B motif using contraction (or diminution) transformation paired with same note modification corruption token. This phrase halves the duration of the motif to semi-quavers with respect to the previous phrase P5. Finally, P7 is generated as the last phrase in this example conditioned to generate a long duration for the cadence.</p>
+<h2>Audio Variations</h2>
+<p>The following samples display various transformations paired with corruption tokens to produce interesting variations of the motif.</p>
+<p>Augmentation Transformation with Melodic Stripping Corruption
 <audio src="Audio_Variations/han1006_mono_expand_melody_combined.mp3" controls ></audio>
 Modal Inversion Transformation with Incorrect Inversion Corruption
 <audio src="Audio_Variations/han1006_mono_invert_melody_strict_combined.mp3" controls ></audio>
@@ -172,12 +151,8 @@ Fragmentation Transformation with Fragmentation Corruption
 Pitch Rhythm Permutation Transformation with Pitch Rhythm Permutation Corruption
 <audio src="Audio_Variations/han1006_mono_permute_melody_pitch_rhythm_combined.mp3" controls ></audio>
 Pitch Rythm Retrograde with Incorrect Inversion Corruption
-<audio src="Audio_Variations/han1006_mono_retrograde_melody_pitch_rhythm_combined.mp3" controls ></audio>
-
-
+<audio src="Audio_Variations/han1006_mono_retrograde_melody_pitch_rhythm_combined.mp3" controls ></audio></p>
 <!-- We finally present some audio samples of separations produced by the system. By cross-referencing the cluster index with the histogram shown above, it is possible to recognize the class of sources characteristic of each cluster. -->
-
-
 <!-- ### Example 0
 
 Mix
