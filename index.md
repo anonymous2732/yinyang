@@ -16,7 +16,7 @@ Transformer models have made great strides in generating symbolic music with loc
 
 ## Example 1
 
-<table style="width: 100%;">
+<table style="width: 150%;">
     <tr>
         <th style="width: 20%;">Model</th>
         <th style="width: 30%;">Audio</th>
@@ -52,7 +52,7 @@ Transformer models have made great strides in generating symbolic music with loc
 
 ## Example 2
 
-<table style="width: 100%;">
+<table style="width: 150%;">
     <tr>
         <th style="width: 20%;">Model</th>
         <th style="width: 30%;">Audio</th>
@@ -103,7 +103,7 @@ Transformer models have made great strides in generating symbolic music with loc
     </tr>
 </table> -->
 
-<table style="width: 100%;">
+<table style="width: 150%;">
     <tr>
         <th style="width: 20%;">Model</th>
         <th style="width: 30%;">Audio</th>
@@ -138,7 +138,7 @@ Transformer models have made great strides in generating symbolic music with loc
 
 ## Example 4
 
-<table style="width: 100%;">
+<table style="width: 150%;">
     <tr>
         <th style="width: 20%;">Model</th>
         <th style="width: 30%;">Audio</th>
