@@ -176,7 +176,7 @@ Pitch Rythm Retrograde with Incorrect Inversion Corruption
 <audio src="Audio_Variations/han1006_mono_retrograde_melody_pitch_rhythm_combined.mp3" controls ></audio> -->
 
 
-<table style="width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
+<table style="float:left; width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
         <th style="width: 20%; border: 1px solid black;">Transformation</th>
         <th style="width: 20%; border: 1px solid black;">Corruption</th>
@@ -202,7 +202,7 @@ Pitch Rythm Retrograde with Incorrect Inversion Corruption
         <td>Modal inversion transformation inverts the intervals between the notes, causing the pitch contour to change, resulting in a low similarity variation. When paired with the incorrect inversion corruption token, the refiner takes the previous phrase (the 2 bar motif in this case) as musical context so as not to produce a strict melodic inversion but a more flexible musically meaningful one.</td>
     </tr>
     <tr style="border-bottom: 1px solid black;">
-        <td>Pitch Durtaion Permutation</td>
+        <td>Pitch Duration Permutation</td>
         <td>Pitch Duration Permutation</td>
         <td><audio src="Audio_Variations/han1006_mono_permute_melody_pitch_rhythm_combined.mp3" controls ></audio></td>
         <td>Pitch and duration permutation simply shuffles up the notes provided as conditioning to the refiner. While in practice it is intended to produce a low similarity variation, in this case as the previous phrase is also equivalent to the transformed one, it produces a highly similar variation.</td>
