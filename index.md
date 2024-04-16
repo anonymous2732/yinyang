@@ -164,19 +164,8 @@ The motif is stated in P1. P2 is generated with the phrase generator. P3 uses th
 ## Audio Variations
 The following samples display various transformations paired with corruption tokens to produce interesting variations of the motif.
 
-<!-- Augmentation Transformation with Melodic Stripping Corruption
-<audio src="Audio_Variations/han1006_mono_expand_melody_combined.mp3" controls ></audio>
-Modal Inversion Transformation with Incorrect Inversion Corruption
-<audio src="Audio_Variations/han1006_mono_invert_melody_strict_combined.mp3" controls ></audio>
-Fragmentation Transformation with Fragmentation Corruption
-<audio src="Audio_Variations/han1006_mono_fragmentation_combined.mp3" controls ></audio>
-Pitch Rhythm Permutation Transformation with Pitch Rhythm Permutation Corruption
-<audio src="Audio_Variations/han1006_mono_permute_melody_pitch_rhythm_combined.mp3" controls ></audio>
-Pitch Rythm Retrograde with Incorrect Inversion Corruption
-<audio src="Audio_Variations/han1006_mono_retrograde_melody_pitch_rhythm_combined.mp3" controls ></audio> -->
 
-
-<table style="float:left; width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
+<table style="margin: 1em; width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
         <th style="width: 20%; border: 1px solid black;">Transformation</th>
         <th style="width: 20%; border: 1px solid black;">Corruption</th>
