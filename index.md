@@ -164,8 +164,8 @@ The motif is stated in P1. P2 is generated with the phrase generator. P3 uses th
 ## Audio Variations
 The following samples display various transformations paired with corruption tokens to produce interesting variations of the motif.
 
-
-<table style="margin: 1em; width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
+<div style="text-align: left;">
+<table style="width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
         <th style="width: 20%; border: 1px solid black;">Transformation</th>
         <th style="width: 20%; border: 1px solid black;">Corruption</th>
@@ -203,7 +203,7 @@ The following samples display various transformations paired with corruption tok
         <td>A retrograde on the pitch and duration of the transformed phrase paired with the incorrect inversion token generates a flexible retrograded phrase, taking the previous phrase into context. As heard, the pitch contour has now changed, yielding a low similarity variation.</td>
     </tr>
 </table>
-
+</div>
 
 <!-- We finally present some audio samples of separations produced by the system. By cross-referencing the cluster index with the histogram shown above, it is possible to recognize the class of sources characteristic of each cluster. -->
 
