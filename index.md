@@ -151,7 +151,7 @@ Transformer models have made great strides in generating symbolic music with loc
     <tr style="border-bottom: 1px solid black;">
         <td>YinYang Ablated</td>
         <td><audio src="Audio_Type_4/NLB011074_01_YYA.mp3" controls ></audio></td>
-        <td>While YYA is able to adhere to the initial prompt in its structure while also producing diverse results, it does occasionally produce notes outside the scale of the piece. This is especially heard in the B section from 0:14 to 0:30. The A section theme comes back at 0:31 in a lower octave with variations of the motif produced till 0:47 when the C section starts. As the new motif is derived from an arbitrary phrase of the previous sections, it still retains some of the rhythmic patterns of the motif from section A, resulting in a similar three note fragment.</td>
+        <td>While YYA is able to adhere to the initial prompt in its structure while also producing diverse results, it does occasionally produce notes outside the scale of the piece due to the absence of the selector model. This is especially heard in the B section from 0:14 to 0:30. The A section theme comes back at 0:31 in a lower octave with variations of the motif produced till 0:47 when the C section starts. As the new motif is derived from an arbitrary phrase of the previous sections, it still retains some of the rhythmic patterns of the motif from section A, resulting in a similar three note fragment. The A section is stated again for the fifth section at 1:04. The last few notes leading up to the cadence in this section lie outside the scale, making it unexpected. This produces a musical tension just before resolving it with the cadence with notes of the same scale again.</td>
     </tr>
 </table>
 
