@@ -9,3 +9,12 @@
   margin-left: 0px; /* Adjust the margin as needed */
   vertical-align: top; /* Align audio player and description at the top */
 }
+
+table {
+  border-collapse: collapse; /* Collapse borders to avoid doubled borders */
+  border: 2px solid black; /* Add a border around the table */
+}
+
+th, td {
+  border: 1px solid black; /* Add a border to each cell */
+}

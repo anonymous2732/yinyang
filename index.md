@@ -76,12 +76,12 @@ Transformer models have made great strides in generating symbolic music with loc
     <tr>
         <td>YinYang</td>
         <td><audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio></td>
-        <td>YY sections are arranged as follows:<br> 0-0:26 A section<br> 0:27-0:54 - B section<br> 0:55-1:11 - A section (lower octave)<br> 1:12-1:30 - C section<br> 1:31-end - A section. The B section contains notes outside the key signature with the model's use of chromaticism. However, the phrases in the following sections revert back to the original key signature.</td>
+        <td>YY sections are arranged as follows:<br> 0-0:26 A section<br> 0:27-0:54 - B section<br> 0:55-1:11 - A section (lower octave)<br> 1:12-1:30 - C section<br> 1:31-end - A section.<br> The B section contains notes outside the key signature with the model's use of chromaticism. However, the phrases in the following sections revert back to the original key signature.</td>
     </tr>
     <tr>
         <td>YinYang Ablated</td>
         <td><audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio></td>
-        <td>0-0:23 - A section, 0:24-0:37 B section, 0:49 - C section</td>
+        <td>YYA consists of distinct musical ideas. However, while the B section starts at 0:27, it becomes more prominent at 0:38, which is a variation of the new motif. Its sections are organized as follows:<br>0-0:26 - A section <br> 0:27-0:57 B section <br> 0:58-1:17 - A section <br> 1:18-1:37 - C section <br> 1:38-end - A section</td>
     </tr>
 </table>
 
