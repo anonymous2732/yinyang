@@ -19,27 +19,27 @@ Transformer models have made great strides in generating symbolic music with loc
         <th style="width: 30%; border: 1px solid black; text-align: center;">Audio</th>
         <th style="width: 50%; border: 1px solid black; text-align: center;">Description</th>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Prompt</td>
         <td><audio src="Audio_Type_1/NLB150927_01_GT.mp3" controls ></audio></td>
         <td></td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Compound Word Transformer</td>
         <td><audio src="Audio_Type_1/NLB150927_01_CP.mp3" controls ></audio></td>
         <td>CP is able to follow the prompt for the first 30 seconds. After that, it diverges too much from the motif, generating excessive appogiatura like embellishments.</td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Music Transformer</td>
         <td><audio src="Audio_Type_1/NLB150927_01_MT.mp3" controls ></audio></td>
         <td>MT starts off with repetitive fragment like variations in the beginning but after 0:20, it repeats the same two notes till the end of the generation.</td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Yin-Yang</td>
         <td><audio src="Audio_Type_1/NLB150927_01_YY.mp3" controls ></audio></td>
         <td>YY is able to follow a melodic structure while adhering to the prompt. Its sections can be heard as follows: <br>0-0:22 - A section <br> 0:23-0:34 - B section <br> 0:35-0:53 - A section <br> 0:54-1:07 - C section <br> 1:07-end - A section </td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Yin-Yang Ablated</td>
         <td><audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio></td>
         <td>YYA is also able to follow a melodic structure but it could be argued that the phrases within the sections (not counting exact repetitions) are slightly less similar to that of YY. Its sections can be heard as follows: <br> 0-0:21 - A section <br> 0:22-0:35 - B section <br> 0:36-0:53 - A section (lower octave) <br> 0:54-1:05 - C section <br> 1:06-end - A section</td>
@@ -58,27 +58,27 @@ Transformer models have made great strides in generating symbolic music with loc
         <th style="width: 30%; border: 1px solid black;">Audio</th>
         <th style="width: 50%; border: 1px solid black;">Description</th>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Prompt</td>
         <td><audio src="Audio_Type_2/NLB075093_01_GT.mp3" controls ></audio></td>
         <td></td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Compound Word Transformer</td>
         <td><audio src="Audio_Type_2/NLB075093_01_CP.mp3" controls ></audio></td>
         <td>CP losely follows the prompt up until the first minute but goes in a tangential direction after. Overlapping note durations can also be heard around 1:30 which is not desirable for the monophonic melodies.</td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Music Transformer</td>
         <td><audio src="Audio_Type_2/NLB075093_01_MT.mp3" controls ></audio></td>
         <td>MT initially generates a variation of the prompt which consists of a four note cadence (low-high-low-same). This cadence is repeated throughout in most of the generated phrases. Around 1:07-1:20 it is repeated excessively. </td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>YinYang</td>
         <td><audio src="Audio_Type_2/NLB075093_01_YY.mp3" controls ></audio></td>
         <td>YY sections are arranged as follows:<br> 0-0:26 A section<br> 0:27-0:54 - B section<br> 0:55-1:11 - A section (lower octave)<br> 1:12-1:30 - C section<br> 1:31-end - A section.<br> The B section contains notes outside the key signature with the model's use of chromaticism. However, the phrases in the following sections revert back to the original key signature.</td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>YinYang Ablated</td>
         <td><audio src="Audio_Type_2/NLB075093_01_YYA.mp3" controls ></audio></td>
         <td>YYA consists of distinct musical ideas. However, while the B section starts at 0:27, it becomes more prominent at 0:38, which is a variation of the new motif. At 1:03, the phrase is completed by notes of a higher pitch. While it comes as a surprise, it may be an unlikely occurrence if the phrase selector were added in like YY. Its sections are organized as follows:<br>0-0:26 - A section <br> 0:27-0:57 B section <br> 0:58-1:17 - A section <br> 1:18-1:37 - C section <br> 1:38-end - A section</td>
@@ -97,27 +97,27 @@ Transformer models have made great strides in generating symbolic music with loc
         <th style="width: 30%; border: 1px solid black;">Audio</th>
         <th style="width: 50%; border: 1px solid black;">Description</th>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Prompt</td>
         <td><audio src="Audio_Type_3/tirol12_GT.mp3" controls ></audio></td>
         <td></td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Compound Word Transformer</td>
         <td><audio src="Audio_Type_3/tirol12_CP.mp3" controls ></audio></td>
         <td>CP responds well to the motif in its first phrase. At the start of 0:18, the beginning of a new section can be heard. Around 0:41 there is yet another section that the model generates. However, throughout the piece, the music does not resemble the initial prompt. </td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Music Transformer</td>
         <td><audio src="Audio_Type_3/tirol12_MT.mp3" controls ></audio></td>
         <td>MT generation comprises a structure of two phrases, of which one is varied while the other consisting of 4 notes (note-high-same-low) is repeated excessively throughout the piece. In addition, the generation does not refer back to the original prompt at all.</td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>YinYang</td>
         <td><audio src="Audio_Type_3/tirol12_YY.mp3" controls ></audio></td>
         <td>The first phrase generated by YY is a response to the prompt. The long note followed by the short one at the end of the motif are generated in the subsequent phrases, making it easy to relate to the prompt. The B section starts at 0:29 up with slightly different rhythmic patterns compared to section A. At 0:49, the original motif is restated with a call and response like variation. A new motif belonging to section C can be heard at 1:10. However, because the model looks at the last note of the previous phrase to produce a new motif for this section, it still retains the longer duration of the note in its cadence. At 1:33, the original theme from section A is stated again with a response that ends in an upward cadence.</td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>YinYang Ablated</td>
         <td><audio src="Audio_Type_3/tirol12_YYA.mp3" controls ></audio></td>
         <td>YYA is full of variations. However, not all phrases within the sections are homogeneous, owing to the absence of the phrase selector. 0:22 marks section B. At 0:49, an unusual high pitched note can be heard which belongs to the same scale of the piece. Section A is restated at 0:58 in a higher octave. While the next phrase begins in a faster and interesting rhythmic pattern, the phrase generator repeats the Eb note a bit excessively. However, the model is able to break free from the repetition with the help of the refiner due to the start of the C section at 1:15. At 1:32, the A section theme is restated again with an interesting three-note rhythmic pattern that leads to the end of the piece. </td>
@@ -136,27 +136,27 @@ Transformer models have made great strides in generating symbolic music with loc
         <th style="width: 30%; border: 1px solid black;">Audio</th>
         <th style="width: 50%; border: 1px solid black;">Description</th>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Prompt</td>
         <td><audio src="Audio_Type_4/NLB011074_01_GT.mp3" controls ></audio></td>
         <td></td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Compound Word Transformer</td>
         <td><audio src="Audio_Type_4/NLB011074_01_CP.mp3" controls ></audio></td>
         <td>The last three notes of the initial motif can be heard in some moments with the CP model. However, the structure is vague with long duration notes in between and lacking distinct musical ideas.</td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Music Transformer</td>
         <td><audio src="Audio_Type_4/NLB011074_01_MT.mp3" controls ></audio></td>
         <td>MT repeats a fragment of the motif consisting of two notes (a short one and a long one right after) excessively throughout the piece, resulting in a monotonous rhythmic structure.</td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>YinYang</td>
         <td><audio src="Audio_Type_4/NLB011074_01_YY.mp3" controls ></audio></td>
         <td>YY produces a melody with a diverse range of pitches, touching high as well as low note pitches. All sections have clear phrase boundaries with interesting variations. Section B starts at 0:20 but is kept short till 0:33 after which the original theme is stated in a lower octave. Section C starts at 1:01 with the new motif given by the different rhythmic structure. At 1:23 the A section theme is brought back at a lower octave. However, the cadence of the piece sounds incomplete. One reason for this may be due to the call and response like generation throughout the piece, setting up the perceptual expectation that there would be a response to the last phrase. However, as the number of phrases and sections are fixed before generation, the piece ends once the maximum phrases are obtained. Had the user specified an extra phrase for this section, it may have resulted in a phrase with a more satisfying cadence. </td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>YinYang Ablated</td>
         <td><audio src="Audio_Type_4/NLB011074_01_YYA.mp3" controls ></audio></td>
         <td>While YYA is able to adhere to the initial prompt in its structure while also producing diverse results, it does occasionally produce notes outside the scale of the piece due to the absence of the selector model. This is especially heard in the B section from 0:14 to 0:30. The A section theme comes back at 0:31 in a lower octave with variations of the motif produced till 0:47 when the C section starts. As the new motif is derived from an arbitrary phrase of the previous sections, it still retains some of the rhythmic patterns of the motif from section A, resulting in a similar three note fragment. The A section is stated again for the fifth section at 1:04. The last few notes leading up to the cadence in this section lie outside the scale, making it unexpected. This produces a musical tension just before resolving it with the cadence with notes of the same scale again.</td>
@@ -192,31 +192,31 @@ The following samples display various transformations paired with corruption tok
         <th style="width: 25%; border: 1px solid black;">Audio</th>
         <th style="width: 45%; border: 1px solid black;">Description</th>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Fragmentation + Augmentation</td>
         <td>Fragmentation + Melodic Stripping</td>
         <td><audio src="Audio_Variations/han1006_mono_expand_melody_combined.mp3" controls ></audio></td>
         <td>Fragmentation and augmentation transformations together increase the duration of a particular fragment of the phrase. When combined with the fragmentation and melodic stripping corruption tokens, it tricks the refiner into filling in notes between the augmented ones, as if they had been ommitted. This produces a high similarity variation.</td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Fragmentation</td>
         <td>Fragmentation</td>
         <td><audio src="Audio_Variations/han1006_mono_fragmentation_combined.mp3" controls ></audio></td>
         <td>Fragmentation transformation and corruption together keep a fragment while generating the surrounding notes to produce a high similarity variation.</td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Modal Inversion</td>
         <td>Incorrect Inversion</td>
         <td><audio src="Audio_Variations/han1006_mono_invert_melody_strict_combined.mp3" controls ></audio></td>
         <td>Modal inversion transformation inverts the intervals between the notes, causing the pitch contour to change, resulting in a low similarity variation. When paired with the incorrect inversion corruption token, the refiner takes the previous phrase (the 2 bar motif in this case) as musical context so as not to produce a strict melodic inversion but a more flexible musically meaningful one.</td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Pitch Duration Permutation</td>
         <td>Pitch Duration Permutation</td>
         <td><audio src="Audio_Variations/han1006_mono_permute_melody_pitch_rhythm_combined.mp3" controls ></audio></td>
         <td>Pitch and duration permutation simply shuffles up the notes provided as conditioning to the refiner. While in practice it is intended to produce a low similarity variation, in this case as the previous phrase is also equivalent to the transformed one, it produces a highly similar variation.</td>
     </tr>
-    <tr style="border-bottom: 1px solid black;">
+    <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Pitch Duration Retrograde</td>
         <td>Incorrect Inversion</td>
         <td><audio src="Audio_Variations/han1006_mono_retrograde_melody_pitch_rhythm_combined.mp3" controls ></audio></td>
