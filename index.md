@@ -15,9 +15,9 @@ Transformer models have made great strides in generating symbolic music with loc
 
 <table style="margin-left: -5cm !important; width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
-        <th style="width: 20%; border: 1px solid black;">Model</th>
-        <th style="width: 30%; border: 1px solid black;">Audio</th>
-        <th style="width: 50%; border: 1px solid black;">Description</th>
+        <th style="width: 20%; border: 1px solid black; text-align: center;">Model</th>
+        <th style="width: 30%; border: 1px solid black; text-align: center;">Audio</th>
+        <th style="width: 50%; border: 1px solid black; text-align: center;">Description</th>
     </tr>
     <tr style="border-bottom: 1px solid black;">
         <td>Prompt</td>
