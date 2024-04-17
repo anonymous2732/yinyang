@@ -13,33 +13,39 @@ Transformer models have made great strides in generating symbolic music with loc
 </div>
 <!-- ## Example 1 -->
 
+<style>
+    .center-text {
+        text-align: center;
+    }
+</style>
+
 <table style="margin-left: -5cm !important; width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
-    <tr>
+    <tr class="center-text">
         <th style="width: 20%; border: 1px solid black; text-align: center;">Model</th>
         <th style="width: 30%; border: 1px solid black; text-align: center;">Audio</th>
         <th style="width: 50%; border: 1px solid black; text-align: center;">Description</th>
     </tr>
-    <tr style="border-bottom: 1px solid black; text-align: center;">
+    <tr class="center-text" style="border-bottom: 1px solid black; text-align: center;">
         <td>Prompt</td>
         <td><audio src="Audio_Type_1/NLB150927_01_GT.mp3" controls ></audio></td>
         <td></td>
     </tr>
-    <tr style="border-bottom: 1px solid black; text-align: center;">
+    <tr class="center-text" style="border-bottom: 1px solid black; text-align: center;">
         <td>Compound Word Transformer</td>
         <td><audio src="Audio_Type_1/NLB150927_01_CP.mp3" controls ></audio></td>
         <td>CP is able to follow the prompt for the first 30 seconds. After that, it diverges too much from the motif, generating excessive appogiatura like embellishments.</td>
     </tr>
-    <tr style="border-bottom: 1px solid black; text-align: center;">
+    <tr class="center-text" style="border-bottom: 1px solid black; text-align: center;">
         <td>Music Transformer</td>
         <td><audio src="Audio_Type_1/NLB150927_01_MT.mp3" controls ></audio></td>
         <td>MT starts off with repetitive fragment like variations in the beginning but after 0:20, it repeats the same two notes till the end of the generation.</td>
     </tr>
-    <tr style="border-bottom: 1px solid black; text-align: center;">
+    <tr class="center-text" style="border-bottom: 1px solid black; text-align: center;">
         <td>Yin-Yang</td>
         <td><audio src="Audio_Type_1/NLB150927_01_YY.mp3" controls ></audio></td>
         <td>YY is able to follow a melodic structure while adhering to the prompt. Its sections can be heard as follows: <br>0-0:22 - A section <br> 0:23-0:34 - B section <br> 0:35-0:53 - A section <br> 0:54-1:07 - C section <br> 1:07-end - A section </td>
     </tr>
-    <tr style="border-bottom: 1px solid black; text-align: center;">
+    <tr class="center-text" style="border-bottom: 1px solid black; text-align: center;">
         <td>Yin-Yang Ablated</td>
         <td><audio src="Audio_Type_1/NLB150927_01_YYA.mp3" controls ></audio></td>
         <td>YYA is also able to follow a melodic structure but it could be argued that the phrases within the sections (not counting exact repetitions) are slightly less similar to that of YY. Its sections can be heard as follows: <br> 0-0:21 - A section <br> 0:22-0:35 - B section <br> 0:36-0:53 - A section (lower octave) <br> 0:54-1:05 - C section <br> 1:06-end - A section</td>
