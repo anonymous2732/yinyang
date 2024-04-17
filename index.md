@@ -193,10 +193,10 @@ The following samples display various transformations paired with corruption tok
 <div style="text-align: left;">
 <table style="margin-left: -5cm !important; width: 150%; border-collapse: collapse; border: 2px solid black; text-align: center;">
     <tr>
-        <th style="width: 15%; border: 1px solid black;">Transformation</th>
-        <th style="width: 15%; border: 1px solid black;">Corruption</th>
-        <th style="width: 25%; border: 1px solid black;">Audio</th>
-        <th style="width: 45%; border: 1px solid black;">Description</th>
+        <th style="width: 15%; border: 1px solid black; text-align: center;">Transformation</th>
+        <th style="width: 15%; border: 1px solid black; text-align: center;">Corruption</th>
+        <th style="width: 25%; border: 1px solid black; text-align: center;">Audio</th>
+        <th style="width: 45%; border: 1px solid black; text-align: center;">Description</th>
     </tr>
     <tr style="border-bottom: 1px solid black; text-align: center;">
         <td>Fragmentation + Augmentation</td>
