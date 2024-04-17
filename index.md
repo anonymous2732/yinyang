@@ -8,7 +8,7 @@ title: Yin-Yang: A Neuro-Symbolic Framework For Developing Motifs With Long-Term
 **Abstract**  
 Transformer models have made great strides in generating symbolic music with local coherence. Yet, controlling the development of motifs in a structured way with global form remains an open research area. One of the reasons for this challenge is due to the note-by-note autoregressive generation of such models which lack the ability to correct themselves after deviations from the motif. In addition, their structural performance on datasets with shorter durations has not been studied in the literature. In this study, we propose Yin-Yang, a neuro-symbolic framework consisting of a phrase generator, phrase refiner and phrase selector models for development of motifs with long-term structure and controllability. The phrase refiner is trained on a novel corruption-refinement strategy which allows it to produce melodic and rhythmic variations of the original motif at generation time, thereby rectifying deviations of the phrase generator. We also introduce a new objective evaluation metric for quantifying how smoothly the motif manifests itself within the piece. Subjective evaluation results show our model achieves better performance compared to state of the art transformer models while having the advantage of being controllable and semi-interpretable, paving the path for musical analysis.
 
-<div style="margin-left: -5cm; text-align: center;">
+<div style="margin-left: -2cm; text-align: center;">
     <h2>Example 1</h2>
 </div>
 <!-- ## Example 1 -->
@@ -46,7 +46,7 @@ Transformer models have made great strides in generating symbolic music with loc
     </tr>
 </table>
 
-<div style="margin-left: -5cm; text-align: center;">
+<div style="margin-left: -2cm; text-align: center;">
     <h2>Example 2</h2>
 </div>
 
@@ -85,7 +85,7 @@ Transformer models have made great strides in generating symbolic music with loc
     </tr>
 </table>
 
-<div style="margin-left: -5cm; text-align: center;">
+<div style="margin-left: -2cm; text-align: center;">
     <h2>Example 3</h2>
 </div>
 
@@ -124,7 +124,7 @@ Transformer models have made great strides in generating symbolic music with loc
     </tr>
 </table>
 
-<div style="margin-left: -5cm; text-align: center;">
+<div style="margin-left: -2cm; text-align: center;">
     <h2>Example 4</h2>
 </div>
 
@@ -163,7 +163,7 @@ Transformer models have made great strides in generating symbolic music with loc
     </tr>
 </table>
 
-<div style="margin-left: -5cm; text-align: center;">
+<div style="margin-left: -2cm; text-align: center;">
     <h2>Yin-Yang Generation Framework</h2>
 </div>
 
@@ -177,7 +177,7 @@ The score presented with the music demonstrates how the phrase generation and re
 
 The motif is stated in P1. P2 is generated with the phrase generator. P3 uses the phrase refiner to transform and refine the motif using the reduction transformation paired with the melodic addition corruption. The refinement is with respect to phrase P2. The new section starts with P4 which arbitrarily chooses the P3 phrase and applies the note pitch and rhythm permutation transformation and corruption. P5 from the phrase generator elaborates on the new motif before the refiner is brought back to transform the section B motif using contraction (or diminution) transformation paired with same note modification corruption token. This phrase halves the duration of the motif to semi-quavers with respect to the previous phrase P5. Finally, P7 is generated as the last phrase in this example conditioned to generate a long duration for the cadence.
 
-<div style="margin-left: -5cm; text-align: center;">
+<div style="margin-left: -2cm; text-align: center;">
     <h2>Motif Variations</h2>
 </div>
 
